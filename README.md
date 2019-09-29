@@ -39,15 +39,19 @@ viewport.getViewports(200);
 
 ### Methods
 
-- **is(String|Number)**
+**is(String|Number)**
+
 Returns ``true|false`` 
 If the current window width accords to the given param
 
-- **setViewports(Object)**
+**setViewports(Object)**
+
 Expects an object with viewports defined values
 
-- **addViewport('String', number)**
+**addViewport('String', number)**
+
 Adds a new viewport to the current existing viewport and set
 
-- **getViewports()**
+**getViewports()**
+
 Returns a object with all defined viewports
